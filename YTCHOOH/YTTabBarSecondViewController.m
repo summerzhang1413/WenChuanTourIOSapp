@@ -49,7 +49,8 @@
     // Do any additional setup after loading the view from its nib.
     
     CGFloat widthView = self.view.bounds.size.width;
-    CGFloat heightView = self.view.bounds.size.height;
+//    CGFloat heightView = self.view.bounds.size.height;
+    
     // Formaldehyde甲醛
     PNLineChartView *lineChartViewFormaldehyde = [[PNLineChartView alloc] init];
     lineChartViewFormaldehyde.frame = CGRectMake(40, 90, widthView - 40, 200);
