@@ -7,12 +7,39 @@
 //
 
 #import "YTAppDelegate.h"
+#import "YTTabBarFirstViewController.h"
+#import "YTTabBarSecondViewController.h"
+#import "YTTabBarThirdViewController.h"
 
 @implementation YTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+//    
+//    YTTabBarFirstViewController *viewController1;
+//    YTTabBarSecondViewController *viewController2;
+//    YTTabBarThirdViewController *viewController3;
+//    
+//    viewController1 = [[YTTabBarFirstViewController alloc] initWithNibName:@"YTTabBarFirstViewController" bundle:nil];
+//    viewController1.title = @"First";
+//    
+//    viewController2 = [[YTTabBarSecondViewController alloc] initWithNibName:@"YTTabBarSecondViewController" bundle:nil];
+//    viewController2.title = @"Second";
+//    
+//    viewController3 = [[YTTabBarThirdViewController alloc] initWithNibName:@"YTTabBarThirdViewController" bundle:nil];
+//    viewController3.title = @"Third";
+//    
+//    self.tabBarController = [[UITabBarController alloc] init];
+//    
+//    self.tabBarController.delegate = self;
+//    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, viewController3, nil];
+//    
+//    self.window.rootViewController = self.tabBarController;    
+//    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
